@@ -18,7 +18,6 @@ sys.path.append(os.path.abspath(data_path))
 # Import the data module
 from data import mnist
 
-
 @click.group()
 def cli():
     pass
